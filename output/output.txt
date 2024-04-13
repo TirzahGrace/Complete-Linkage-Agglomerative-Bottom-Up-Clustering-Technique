@@ -1,0 +1,36 @@
+Important features for clustering:
+solarradiation      6125.751013
+cloudcover           288.586440
+windgust             116.606565
+humidity              97.811772
+precip                65.543423
+precipcover           58.554681
+solarenergy           45.677107
+windspeed             45.050811
+sealevelpressure      40.047473
+feelslikemin          17.795019
+feelslikemax          16.761016
+tempmax               16.605951
+tempmin               14.750724
+feelslike             14.069437
+temp                  13.025236
+dew                   11.317622
+uvindex                5.650074
+visibility             1.114903
+moonphase              0.085340
+snowdepth              0.000000
+snow                   0.000000
+dtype: float64
+
+k: 3 -> Silhouette Coefficient: 0.279179
+Silhouette Coefficient for k=3: 0.279179
+Silhouette Coefficient for k=4: 0.227721
+Silhouette Coefficient for k=5: 0.188433
+Silhouette Coefficient for k=6: 0.193583
+
+Optimal value of k: 3
+Highest Silhouette Coefficient: 0.279179
+Jaccard Similarity score for K-means cluster 1 and best matching Hierarchical cluster 1: 0.620690
+Jaccard Similarity score for K-means cluster 2 and best matching Hierarchical cluster 3: 0.490385
+Jaccard Similarity score for K-means cluster 3 and best matching Hierarchical cluster 2: 0.044444
+Overall average similarity among K-means cluster and Hierarchical cluster: 0.385173
