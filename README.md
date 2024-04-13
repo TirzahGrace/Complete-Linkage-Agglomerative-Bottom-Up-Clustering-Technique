@@ -12,6 +12,7 @@ This repository contains code for performing clustering analysis on weather data
     ```
   - Run the `main.py` script:
     ```bash
+    cd src/
     python main.py
     ```
   - The script will generate output files and plots in the `output` directory.
